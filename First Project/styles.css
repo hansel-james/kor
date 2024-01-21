@@ -1,0 +1,25 @@
+.chessboard {
+    display: grid;
+    width: 450px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.black {
+    color: turquoise;
+    font-size: 30px;
+    background-color: midnightblue;
+    height: 50px;
+    width: 50px;
+}
+
+.white {
+    color: midnightblue;
+    font-size: 30px;
+    background-color: turquoise;
+    height: 50px;
+    width: 50px;
+}
+
+.fade {
+    opacity: 0;
+}
